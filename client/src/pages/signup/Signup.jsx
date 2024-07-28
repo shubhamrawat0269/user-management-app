@@ -110,7 +110,7 @@ const Signup = () => {
         </Button>
         <div className={styles.checkboxItem}>
           Have an account?
-          <Link to={"/sign-in"} className="text-teal-100 font-semibold">
+          <Link to={"/"} className="text-green-800 font-semibold">
             Sign in
           </Link>
         </div>

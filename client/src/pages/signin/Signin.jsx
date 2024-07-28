@@ -46,7 +46,7 @@ const Signin = () => {
         setLoader(false);
         dispatch(handleSignin(res.data));
         toast.success(res.data.message);
-        navigate("/");
+        navigate("/dashboard");
       }
     } catch (error) {
       // console.log(error);

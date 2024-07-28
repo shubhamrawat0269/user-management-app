@@ -1,13 +1,13 @@
 .signupContainer {
-    @apply bg-teal-600 flex justify-center items-center
+    @apply bg-teal-600 flex justify-center items-center w-screen h-screen
 }
 
 .title {
-    @apply text-5xl text-center text-teal-100
+    @apply text-5xl text-center
 }
 
 .formSection {
-    @apply flex max-w-lg w-[25rem] flex-col gap-4
+    @apply flex max-w-lg w-[25rem] flex-col gap-4 p-7 rounded-lg bg-teal-50
 }
 
 .checkboxItem {
