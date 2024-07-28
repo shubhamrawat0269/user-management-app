@@ -7,9 +7,6 @@ const app = express();
 const connectToDb = require("./db/connectToDb");
 const cookiesParser = require("cookie-parser");
 
-const userRoutes = require("./routes/user.route");
-const authRoutes = require("./routes/auth.route");
-
 app.use(cors());
 app.use(express.json());
 app.use(cookiesParser());
@@ -17,6 +14,9 @@ app.use(cookiesParser());
 app.use(express.urlencoded({ extended: true }));
 
 connectToDb();
+
+const userRoutes = require("./routes/user.route");
+const authRoutes = require("./routes/auth.route");
 
 app.use("/api/user", userRoutes);
 app.use("/api/auth", authRoutes);
