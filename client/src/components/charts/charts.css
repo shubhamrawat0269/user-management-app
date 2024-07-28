@@ -1,0 +1,10 @@
+.recharts-responsive-container {
+    height: 20rem !important;
+    width: 20rem !important;
+}
+
+.img_style {
+    width: 2rem;
+    aspect-ratio: 1;
+    border-radius: 50%;
+}

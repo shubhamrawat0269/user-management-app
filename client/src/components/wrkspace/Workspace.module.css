@@ -1,3 +1,7 @@
 .workspaceSection {
     @apply bg-teal-50
 }
+
+.chartSection {
+    @apply grid grid-cols-2
+}
