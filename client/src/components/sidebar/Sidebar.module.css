@@ -1,0 +1,23 @@
+.sidebarSection {
+    @apply p-2
+}
+
+.heading {
+    @apply text-2xl text-neutral-900 font-bold
+}
+
+.name {
+    @apply text-2xl text-slate-900 mt-2
+}
+
+.username {
+    @apply font-bold text-xl
+}
+
+.menuContainer {
+    @apply mt-10
+}
+
+.menuList {
+    @apply flex items-center gap-3 bg-teal-600 text-white p-2 hover:bg-teal-800 cursor-pointer
+}

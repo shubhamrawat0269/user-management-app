@@ -3,7 +3,7 @@
 }
 
 .logo {
-    @apply text-2xl font-bold dark:text-white
+    @apply text-lg dark:text-white font-semibold text-slate-600
 }
 
 .textInputBox {
@@ -17,8 +17,4 @@
 
 .btnWrapper {
     @apply flex gap-2 md:order-2
-}
-
-.darkThemeBtn {
-    @apply w-12 h-10 hidden sm:inline
 }

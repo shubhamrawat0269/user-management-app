@@ -1,0 +1,3 @@
+.dashboardSection {
+    @apply grid grid-cols-[250px,auto] w-screen h-screen
+}
