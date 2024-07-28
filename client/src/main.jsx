@@ -5,8 +5,8 @@ import routes from "./Routes";
 import ReactDOM from "react-dom/client";
 import { Toaster } from "react-hot-toast";
 
-import { store, persistor } from "./store/store";
 import { Provider } from "react-redux";
+import { store, persistor } from "./store/store";
 
 import { createBrowserRouter, RouterProvider } from "react-router-dom";
 import { PersistGate } from "redux-persist/integration/react";
