@@ -1,7 +1,7 @@
 const mongoose = require("mongoose");
 
 const connectToDb = async () => {
-  const dBURL = process.env.DB_URI || `mongodb://localhost:27017/users`;
+  const dBURL = process.env.DB_URI || `mongodb://127.0.0.1:27017/users`;
   try {
     console.log(
       "MongoDB URI:",
