@@ -13,13 +13,13 @@ app.use(cookiesParser());
 
 app.use(express.urlencoded({ extended: true }));
 
-connectToDb();
-
 const userRoutes = require("./routes/user.route");
 const authRoutes = require("./routes/auth.route");
 
 app.use("/api/user", userRoutes);
 app.use("/api/auth", authRoutes);
+
+connectToDb();
 
 app.listen(process.env.PORT, () =>
   console.log(`Server Started at PORT ${process.env.PORT}`)
