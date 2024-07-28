@@ -1,0 +1,19 @@
+.signinContainer {
+    @apply flex justify-center items-center
+}
+
+.title {
+    @apply text-5xl text-center
+}
+
+.formSection {
+    @apply flex max-w-lg w-[25rem] flex-col gap-4
+}
+
+.checkboxItem {
+    @apply flex items-center gap-2
+}
+
+.submitBtn {
+    @apply bg-slate-800 hover:bg-slate-900
+}

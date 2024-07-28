@@ -1,0 +1,4 @@
+.workspaceWrapper {
+    display: grid;
+    grid-template-rows: 9vh 91vh;
+}
