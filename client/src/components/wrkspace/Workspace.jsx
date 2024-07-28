@@ -6,6 +6,7 @@ const Workspace = () => {
     <div className={styles.workspaceSection}>
       {/* Header section here   */}
       <Header />
+      {/* User Data Here  */}
     </div>
   );
 };
