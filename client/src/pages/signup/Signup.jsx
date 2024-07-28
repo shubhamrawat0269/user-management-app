@@ -37,12 +37,12 @@ const Signup = () => {
     try {
       setLoader(true);
       const res = await axios.post(API_URL, formData);
-      console.log(res);
+      // console.log(res);
 
       if (res.data.success) {
         setLoader(false);
         toast.success(res.data.message);
-        navigate("/sign-in");
+        navigate("/");
       }
     } catch (error) {
       // console.log(error);
