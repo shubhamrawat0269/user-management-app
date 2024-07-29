@@ -66,7 +66,10 @@ const signin = async (req, res) => {
       });
     }
 
-    const token = jwt.sign({ id: validUser._id }, process.env.JWT_SECRET_KEY);
+    const token = jwt.sign(
+      { id: validUser._id },
+      "fLrOSTlarlGSeC3xcSmveg3HdXJGXy2QthR5X0BL3oGM76gPYpVfBfetTzjCxrcg"
+    );
 
     const { password: pwd, ...user } = validUser._doc;
 
