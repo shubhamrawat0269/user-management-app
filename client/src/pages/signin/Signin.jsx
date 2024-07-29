@@ -52,7 +52,7 @@ const Signin = () => {
       // console.log(error);
       setLoader(false);
       toast.error(error.response.data.message);
-      setUserSignupData({
+      setFormData({
         email: "",
         password: "",
       });
