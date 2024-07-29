@@ -36,7 +36,7 @@ const Signin = () => {
 
     // Api Call
 
-    const API_URL = `${import.meta.env.VITE_BACKEND_URL}/api/auth/sign-in`;
+    const API_URL = `https://user-management-app-z04j.onrender.com/api/auth/sign-in`;
     try {
       setLoader(true);
       const res = await axios.post(API_URL, formData);
